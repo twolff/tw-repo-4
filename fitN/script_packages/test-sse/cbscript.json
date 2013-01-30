@@ -1,0 +1,26 @@
+{
+	"name": "ABC_Install",
+	"version": "1.0.0.0",
+	"description": "",
+	"command": "sh /tmp/ABC/Install.sh",
+	"log": "/tmp/XYZ",
+	"location": "/tmp/ABC",
+	"timeout": "0",
+	"commandargs": "",
+	"execmode": "0",
+	"keys":
+	[
+		{
+			"scriptkey": "ABC_Repo_Webserver",
+			"scriptvalue": "",
+			"scriptdefaultvalue": "http://jazz.net"
+		},
+		{
+			"scriptkey": "ABC_Product",
+			"scriptvalue": "",
+			"scriptdefaultvalue": "RTC"
+		
+		}
+	]
+}
+

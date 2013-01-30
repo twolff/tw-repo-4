@@ -1,0 +1,63 @@
+[
+   {
+      "advanced_options": [
+         "security-enabled"
+      ],
+      "description": "This pattern installs ABC and XYZ on WAS 8003",
+      "name": "My Simple ABC WAS Pattern",
+      "parts": [
+         {
+            "add_ons": [
+            ],
+            "configurations": [
+            ],
+            "name": "Standalone server",
+            "properties": [
+               {
+                  "key": "numvcpus",
+                  "pclass": "HWAttributes",
+                  "value": "2"
+               },
+              
+            ],
+            "script_packages": [
+               {
+                  "parameters": [
+                  ],
+                  "script_package_ref": 0
+               },
+               {
+                  "parameters": [
+                  ],
+                  "script_package_ref": 1
+               }               
+            ],
+            "virtual_image_ref": 0
+         },      
+      ],
+      "references": {
+         "add_ons": [
+         ],
+         "script_packages": [
+            {
+               "execmode": 0,
+               "file": "script_packages\/test-xyz.zip",
+               "name": "XYZ_Install"
+            },
+            {
+               "execmode": 0,
+               "file": "script_packages\/test-sse.zip",
+               "name": "ABC_Install"
+            }
+         ],
+         "virtual_images": [
+            {
+               "advancedoptionsaccepted": "F",
+               "build": "dee201230.0",
+               "name": "WebSphere Application Server 8.0.0.3 50 GB WAS",
+               "version": "8.0.0.3"
+            }
+         ]
+      }
+   }
+]

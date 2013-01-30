@@ -1,0 +1,26 @@
+{
+	"name": "XYZ_Install",
+	"version": "1.0.0.0",
+	"description": "",
+	"command": "sh /tmp/XYZ/Install.sh",
+	"log": "/tmp/XYZ",
+	"location": "/tmp/XYZ",
+	"timeout": "0",
+	"commandargs": "",
+	"execmode": "0",
+	"keys":
+	[
+		{
+			"scriptkey": "XYZ_Repo_Webserver1",
+			"scriptvalue": "",
+			"scriptdefaultvalue": "http://jazz.net"
+		},
+		{
+			"scriptkey": "XYZ_Product",
+			"scriptvalue": "",
+			"scriptdefaultvalue": "XYZ"
+		
+		}
+	]
+}
+

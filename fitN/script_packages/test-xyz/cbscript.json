@@ -11,7 +11,7 @@
 	"keys":
 	[
 		{
-			"scriptkey": "XYZ_Repo_Webserver1",
+			"scriptkey": "XYZ_Repo_Webserver123",
 			"scriptvalue": "",
 			"scriptdefaultvalue": "http://jazz.net"
 		},

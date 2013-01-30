@@ -3,7 +3,7 @@
       "advanced_options": [
          "security-enabled"
       ],
-      "description": "This pattern installs ABC and XYZ on WAS 8003",
+      "description": "This pattern installs ABC and XYZ on WAS 8005",
       "name": "My Simple ABC WAS Pattern",
       "parts": [
          {
